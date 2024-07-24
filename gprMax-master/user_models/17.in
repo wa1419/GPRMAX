@@ -1,0 +1,22 @@
+#domain: 1 1 1
+#dx_dy_dz: 0.0025 0.0025 0.0025
+#time_window: 2e-08
+
+#waveform: ricker 1.0 500000000.0 mysource
+#hertzian_dipole: z 0.1 0.95 0.5 mysource
+#rx: 0.15 0.95 0.5
+#src_steps: 0.02 0.0 0.0
+#rx_steps: 0.02 0.0 0.0
+
+#material: 4.0 0.004 1.0 0.0 liqing
+#material: 9.0 0.005 1.0 0.0 jiceng
+#material: 12.0 0.003 1.0 0.0 luji
+
+
+#box: 0.0 0.0 0.0 1 0.95 1 luji
+#box: 0.0 0.95 0.0 1 1 1 free_space
+
+#cylinder: 0.0 0.5 0.35000000000000003 1 0.5 0.6499999999999999 0.2 pec
+#cylinder: 0.0 0.5 0.35000000000000003 1 0.5 0.6499999999999999 0.18 free_space
+
+

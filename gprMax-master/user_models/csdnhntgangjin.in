@@ -1,0 +1,16 @@
+
+#domain: 0.6 0.3
+#dx_dy: 0.0025 0.0025
+#time_window: 8.0e-9
+#box: 0.0 0.0 0.6 0.25 concrete
+#cylinder: 0.3 0.175 0.025 pec
+#line_source：1.0 900e6 ricker MyLineSource
+#analysis：41 rebar.sca b
+#tx：0.075 0.2525 MyLineSource 0.0 8.0e-9
+#rx：0.125 0.2525
+#tx_steps：0.01 0.0
+#rx_steps：0.01 0.0
+#end_analysis：
+#title: Model of rebar in concrete
+#messages: y
+#geometry_file: rebar.geo

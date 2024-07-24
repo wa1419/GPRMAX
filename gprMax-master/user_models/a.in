@@ -1,0 +1,36 @@
+#domain: 4 1.2 0.25
+#dx_dy_dz: 0.0025 0.0025 0.0025
+#time_window: 2e-08
+
+#waveform: ricker 1.0 500000000.0 mysource
+#hertzian_dipole: z 2 1.15 0.125 mysource
+#rx: 2.05 1.15 0.125
+#src_steps: 0.02 0.0 0.0
+#rx_steps: 0.02 0.0 0.0
+
+#material: 1.0 1.6e10 200 0.01 gangguan
+#material: 3.0 1e-11 1.0  0 PVC
+#material: 2.3 1e-13 1.0 0 PE
+#material: 6.4 1e-8 1.0 0 YJV
+#material: 15 10 1.0 3 soil
+
+
+#box: 0.0 0.0 0.0 4 1.15 0.25 soil
+#box: 0.0 1.15 0.0 4 1.2 0.25 free_space
+
+#cylinder: 0.5 0.4 0 0.5 0.4 0.25 0.05 gangguan
+#cylinder: 0.5 0.4 0 0.5 0.4 0.25 0.048 free_space
+#cylinder: 1.5 0.4 0 1.5 0.4 0.25 0.05 PVC
+#cylinder: 1.5 0.4 0 1.5 0.4 0.25 0.048 free_space
+#cylinder: 2.5 0.4 0 2.5 0.4 0.25 0.05 PE
+#cylinder: 2.5 0.4 0 2.5 0.4 0.25 0.048 free_space
+#cylinder: 3.5 0.4 0 3.5 0.4 0.25 0.05 YJV
+#cylinder: 3.5 0.4 0 3.5 0.4 0.25 0.048 pec
+
+#geometry_view: 0 0 0 4 1.2 0.25 0.01 0.01 0.01 a n
+#python:
+from gprMax.input_cmd_funcs import *
+for i in range(1, 200):
+  snapshot(0.0, 0.0, 0.0, 4, 1.2, 0.25, 0.01, 0.01, 0.01, (i/10)*1e-9, 'snapshot' + str(i))
+#end_python:
+

@@ -1,0 +1,24 @@
+#title: GPR simulation for underground steel pipe detection
+
+#domain: 40 0.002 0.002 0.6 0.002 0.002 0.1
+
+#time_window: 1.5e-8
+
+# Materials
+medium: 1 0 0 0 0 0 air
+medium: 8 0 0 0 0 0 soil
+medium: 6.0 0.0 0.0 0.01 1.0 0.0 steel
+
+# Boundary conditions
+cpml: 10 0 10 0
+
+# Sources
+txrx: 0.3 0.0 0.0 0.3 0.6 0.0
+
+# Geometry
+box: 0.0 0.0 0.0 0.6 0.6 0.1 air
+box: 0.0 0.0 0.1 0.6 0.6 0.6 soil
+cylinder: 0.3 0.3 0.0 0.3 0.3 0.1 steel
+
+# Output
+output: geometry

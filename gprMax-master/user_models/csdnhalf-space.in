@@ -1,0 +1,23 @@
+#title: B-scan from a metal cylinder buried in a dielectric half-space
+#domain: 2.000000 0.500000 0.002000
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 1.5e-08
+#output_dir: out
+#material: 6 0 1 0 half_space1
+#material: 11 0 1 0 half_space2
+#material: 14 0 1 0 half_space3
+#material: 15 0 1 0 root
+#waveform: ricker 1 1.5e9 my_ricker
+#hertzian_dipole: z 0.040000 0.475000 0 my_ricker
+#rx: 0.080000 0.475000 0
+#src_steps: 0.005000 0 0
+#rx_steps: 0.005000 0 0
+#box: 0 0.333333 0 2.000000 0.450000 0.002000 half_space1
+#box: 0 0.250000 0 2.000000 0.333333 0.002000 half_space2
+#box: 0 0 0 2.000000 0.250000 0.002000 half_space3
+#cylinder: 0.590978 0.124115 0.000000 0.590978 0.124115 0.002000 0.049133 root
+#cylinder: 1.513838 0.211945 0.000000 1.513838 0.211945 0.002000 0.049133 root
+#cylinder: 1.603402 0.170990 0.000000 1.603402 0.170990 0.002000 0.049133 root
+#cylinder: 1.276011 0.180589 0.000000 1.276011 0.180589 0.002000 0.049133 root
+#cylinder: 0.892826 0.274304 0.000000 0.892826 0.274304 0.002000 0.049133 root
+#geometry_view: 0 0 0 2.000000 0.500000 0.002000 0.002 0.002 0.002 Multilayer_homogeneous_soil n

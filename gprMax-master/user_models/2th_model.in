@@ -1,0 +1,15 @@
+#title: the  2th model
+#domain: 8.4 14.4 0.02
+#dx_dy_dz: 0.02 0.02 0.02
+#time_window: 50e-9
+#material: 6 0.01 1 0 car
+#waveform: ricker 1 100e6 my_ricker
+#hertzian_dipole: z 5.2 0.4 0 my_ricker
+#rx: 5.2 2.85 0
+#src_steps: 0.02 0 0
+#rx_steps: 0.02 0 0
+#box: 0 0 0 8.4 14.4 0.02 car
+#box: 4.7 11 0 6.7 12 0.02 free_space
+#box: 4.7 6.5 0 5.7 7.5 0.02 free_space
+#box: 4.7 2.5 0 5.2 3.5 0.02 free_space
+#geometry_view: 0 0 0 8.4 14.4 0.02 0.02 0.02 0.02 2th_model n 
