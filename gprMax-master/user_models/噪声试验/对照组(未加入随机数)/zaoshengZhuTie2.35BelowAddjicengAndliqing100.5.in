@@ -26,17 +26,7 @@
 #material: 200 10000000.0 1.0 0.0 ZhuTie
 
 
-#box: 0.0 0.0 0.0 3.5 0.2 0.0025 luji1
-#box: 0.0 0.2 0.0 3.5 0.4 0.0025 luji2
-#box: 0.0 0.4 0.0 3.5 0.6 0.0025 luji3
-#box: 0.0 0.6 0.0 3.5 0.8 0.0025 luji4
-#box: 0.0 0.8 0.0 3.5 1.0 0.0025 luji5
-#box: 0.0 1.0 0.0 3.5 1.2 0.0025 luji6
-#box: 0.0 1.2 0.0 3.5 1.4 0.0025 luji7
-#box: 0.0 1.4 0.0 3.5 1.6 0.0025 luji8
-#box: 0.0 1.6 0.0 3.5 1.8 0.0025 luji9
-#box: 0.0 1.8 0.0 3.5 2.0 0.0025 luji10
-#box: 0.0 2.0 0.0 3.5 2.2 0.0025 luji11
+#box: 0.0 0.0 0.0 3.5 2.2 0.0025 luji1
 
 #box: 0.0 2.35 0.0 3.5 2.5 0.0025 free_space
 
@@ -60,4 +50,4 @@
 #cylinder: 1.0 0.5 0 1.0 0.5 0.0025 0.25 ZhuTie
 #cylinder: 1.0 0.5 0 1.0 0.5 0.0025 0.25 ZhuTie
 #cylinder: 1.0 0.5 0 1.0 0.5 0.0025 0.2 free_space
-#geometry_view: 0 0 0 3.5 2.5 0.0025  0.0025 0.0025 0.0025 zaoshengZhuTie2.35BelowAddjicengAndliqing1005 n
+#geometry_view: 0 0 0 3.5 2.5 0.0025  0.0025 0.0025 0.0025 duizhaoZhuTie2.35BelowAddjicengAndliqing1005 n

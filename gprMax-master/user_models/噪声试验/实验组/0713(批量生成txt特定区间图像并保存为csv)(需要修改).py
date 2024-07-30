@@ -86,10 +86,12 @@ for txt_file in os.listdir(out2txt_folder):
             lower, upper = range_dict[last_two_digits]
             selected_data = numeric_data[lower:upper]
             plot_data(selected_data, f"{os.path.splitext(txt_file)[0]}_select")
-
-            # 将txt数据保存为同名的csv文件
+            # 将选定的2000个数据保存为同名的csv文件
             csv_file_name = f"{os.path.splitext(txt_file)[0]}.csv"
-            np.savetxt(csv_file_name, numeric_data, delimiter=',')
+            np.savetxt(csv_file_name, selected_data, delimiter=',')
+            # # 将txt数据保存为同名的csv文件
+            # csv_file_name = f"{os.path.splitext(txt_file)[0]}.csv"
+            # np.savetxt(csv_file_name, numeric_data, delimiter=',')
         else:
             # 如果匹配失败，绘制整条数据并保存为图片
             plot_data(numeric_data, os.path.splitext(txt_file)[0])

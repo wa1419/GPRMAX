@@ -1,0 +1,40 @@
+#domain: 3.5 2.5 0.0025
+#dx_dy_dz: 0.0025 0.0025 0.0025
+#time_window: 5e-08
+#waveform: ricker 1.0 500000000.0 mysource
+
+#hertzian_dipole: z 0.96 2.48 0.0 mysource
+#rx: 1.01 2.48 0.0
+
+#src_steps: 0.02 0.0 0.0
+#rx_steps: 0.02 0.0 0.0
+#material: 4.0 0.004 1.0 0.0 liqing
+#material: 9.0 0.005 1.0 0.0 jiceng
+
+#material: 12.0 0.003 1.0 0.0 luji1
+
+#material: 10 0.05 1.0 0.0 HNT
+
+
+#box: 0.0 0.0 0.0 3.5 2.2 0.0025 luji1
+
+
+#box: 0.0 2.35 0.0 3.5 2.5 0.0025 free_space
+#box: 0.0 2.2 0.0 3.5 2.21 0.0025 liqing
+#box: 0.0 2.21 0.0 3.5 2.22 0.0025 jiceng
+#box: 0.0 2.22 0.0 3.5 2.23 0.0025 liqing
+#box: 0.0 2.23 0.0 3.5 2.24 0.0025 jiceng
+#box: 0.0 2.24 0.0 3.5 2.25 0.0025 liqing
+#box: 0.0 2.25 0.0 3.5 2.26 0.0025 jiceng
+#box: 0.0 2.26 0.0 3.5 2.27 0.0025 liqing
+#box: 0.0 2.27 0.0 3.5 2.28 0.0025 jiceng
+#box: 0.0 2.28 0.0 3.5 2.29 0.0025 liqing
+#box: 0.0 2.29 0.0 3.5 2.3 0.0025 jiceng
+#box: 0.0 2.3 0.0 3.5 2.31 0.0025 liqing
+#box: 0.0 2.31 0.0 3.5 2.32 0.0025 jiceng
+#box: 0.0 2.32 0.0 3.5 2.33 0.0025 liqing
+#box: 0.0 2.33 0.0 3.5 2.34 0.0025 jiceng
+#box: 0.0 2.34 0.0 3.5 2.35 0.0025 liqing
+
+#cylinder: 1.0 1.7 0 1.0 1.7 0.0025 0.25 HNT
+#cylinder: 1.0 1.7 0 1.0 1.7 0.0025 0.2 free_space
